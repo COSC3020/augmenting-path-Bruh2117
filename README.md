@@ -33,6 +33,7 @@ accordingly.
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
+The worst-case scenario would be if there was one path connected all the vertices and you started at the beginning and end nodes. 
+This would then mean that we have to go down every vertex in the adjacency list, taking $|V|$ time. 
 
-
-Looked at wyo-kaitlyn's code for reference
+Used wyo-kaitlyn's code for reference
