@@ -11,7 +11,7 @@ function augmentingPath(graph, start, end, path = [])
     {
         if (path.includes(node) == false) 
         {
-            let augPath = augmentingPath(graph, node, end, path);
+            var augPath = augmentingPath(graph, node, end, path);
         
             if (augPath.length > 0) 
             {
